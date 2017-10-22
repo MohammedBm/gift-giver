@@ -16,9 +16,56 @@ ShallowWrapper {
     "instance": null,
     "key": null,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "children": Array [
+        <h2>
+          Gift Giver
+</h2>,
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="btn-add"
+          disabled={false}
+          onClick={[Function]}
+>
+          Add Gift
+</Button>,
+      ],
+    },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Gift Giver",
+        },
+        "ref": null,
+        "rendered": "Gift Giver",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "active": false,
+          "block": false,
+          "bsClass": "btn",
+          "bsStyle": "default",
+          "children": "Add Gift",
+          "className": "btn-add",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add Gift",
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -26,9 +73,56 @@ ShallowWrapper {
       "instance": null,
       "key": null,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": Array [
+          <h2>
+            Gift Giver
+</h2>,
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn-add"
+            disabled={false}
+            onClick={[Function]}
+>
+            Add Gift
+</Button>,
+        ],
+      },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Gift Giver",
+          },
+          "ref": null,
+          "rendered": "Gift Giver",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "block": false,
+            "bsClass": "btn",
+            "bsStyle": "default",
+            "children": "Add Gift",
+            "className": "btn-add",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add Gift",
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
